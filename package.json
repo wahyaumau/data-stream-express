@@ -1,0 +1,25 @@
+{
+  "name": "data-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/app.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "tsc && node ./build/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.4.3",
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.9.6",
+    "@types/pg-promise": "^5.4.3"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg-cursor": "^2.7.1",
+    "pg-promise": "^10.11.0"
+  }
+}
